@@ -269,10 +269,18 @@ a {
 	margin-bottom: 34px;
 }
 
+.porfolio-list > li {
+	border: 1px solid #eeeeee;
+}
+
 .button.filter:hover,
 .button.filter:focus {
 	background-color: var(--accent-color);
 	color: var(--primary-white-color);
+}
+
+.porfolio-list > li:nth-child(3n + 3) {
+	margin-bottom: 30px;
 }
 
 .porfolio-list .section-title {
