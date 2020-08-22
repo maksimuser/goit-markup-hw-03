@@ -93,7 +93,10 @@ a {
 }
 
 /* Hero */
-.hero {
+.section.hero {
+	padding-top: 200px;
+	padding-bottom: 200px;
+
 	text-align: center;
 	background-color: var(--secondary-bg-color);
 	color: var(--primary-white-color);
@@ -108,7 +111,7 @@ a {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-	/* text-align: center; */
+
 	text-transform: uppercase;
 }
 
@@ -212,6 +215,11 @@ a {
 	background-color: var(--secondary-bg-color);
 }
 
+.section.footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
 /* logo footer */
 .footer-logo {
 	color: var(--primary-white-color);
@@ -225,6 +233,8 @@ a {
 }
 
 .address-text {
+	margin-top: 20px;
+	margin-bottom: 9px;
 	color: var(--primary-white-color);
 }
 
@@ -235,6 +245,10 @@ a {
 .address-list .item:hover,
 .address-list .item:focus {
 	color: var(--accent-color);
+}
+.address-list .mail {
+	display: inline-block;
+	margin-bottom: 9px;
 }
 
 /* Portfolio.html */
@@ -251,6 +265,10 @@ a {
 	letter-spacing: inherit;
 }
 
+.list-filter > li:last-child {
+	margin-bottom: 34px;
+}
+
 .button.filter:hover,
 .button.filter:focus {
 	background-color: var(--accent-color);
@@ -258,6 +276,9 @@ a {
 }
 
 .porfolio-list .section-title {
+	margin-top: 0;
+	margin-bottom: 4px;
+	padding-top: 20px;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
@@ -265,6 +286,9 @@ a {
 }
 
 .porfolio-list .text {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 20px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.87;
