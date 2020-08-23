@@ -236,10 +236,6 @@ a {
 	display: flex;
 }
 
-/* .list-work .item {
-	margin-right: 30px;
-} */
-
 .list-work .item {
 	width: calc((100% - 30px * 2) / 3);
 	margin-right: 30px;
