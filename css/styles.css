@@ -320,18 +320,21 @@ a {
 	color: var(--primary-white-color);
 }
 
-.address-list .item {
+.address-list .link {
 	color: var(--footer-contacts-color);
 }
 
-.address-list .item:hover,
-.address-list .item:focus {
+.address-list .link:hover,
+.address-list .link:focus {
 	color: var(--accent-color);
 }
 
-.address-list .mail {
-	display: inline-block;
+.address-list .item {
 	margin-bottom: 9px;
+}
+
+.address-list .item:nth-child(2n) {
+	margin-bottom: 0;
 }
 
 /* PORTFOLIO.html */
